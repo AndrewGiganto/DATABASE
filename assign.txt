@@ -1,0 +1,22 @@
+sql
+Copy
+EXEC SP_CUSTOMER_ORDER_SUMMARY; -- Shows all customers
+EXEC SP_CUSTOMER_ORDER_SUMMARY @COMPANY_NAME = 'Alfreds Futterkiste'; -- Shows specific customer
+Employee Sales by Territory
+
+sql
+Copy
+EXEC SP_EMPLOYEE_SALES_BY_TERRITORY; -- Shows all territories
+EXEC SP_EMPLOYEE_SALES_BY_TERRITORY @TERRITORY_NAME = 'Westboro'; -- Shows specific territory
+Employee List with Orders
+
+sql
+Copy
+EXEC SP_EMPLOYEELIST_WITH_ORDERS; -- Shows all employees
+EXEC SP_EMPLOYEELIST_WITH_ORDERS @EMPLOYEE_NAME = 'Nancy Davolio'; -- Shows specific employee
+Product List by Supplier
+
+sql
+Copy
+EXEC SP_PRODUCTLIST_BY_SUPPLIER; -- Shows all suppliers
+EXEC SP_PRODUCTLIST_BY_SUPPLIER @SUPPLIER_NAME = 'Exotic Liquids'; -- Shows specific supplier
